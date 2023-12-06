@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
       ),
      body: Center(
   child: imageBox == null
-      ? Text('empty') 
+      ? Text('emptyy') 
       : GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2, 
